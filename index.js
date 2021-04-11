@@ -22,7 +22,7 @@ client.on('ready',()=>{
                         let guildRole = guild.roles.cache.get(config.roles[role])
                         let color = Math.round(Math.random()*colours.length)
                         if(color === 4)
-                                colour=3
+                                color=3
                         guildRole.setColor(colours[color])
                 }
         },1*1000)
