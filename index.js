@@ -24,7 +24,7 @@ client.on('ready',()=>{
                         if(color === 4)
                                 color=3
                         guildRole.setColor(colours[color])
-                        console.log(colours[color])
+                        //console.log(colours[color])
                 }
         },1*1000)
         // setInterval(async ()=>{
