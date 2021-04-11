@@ -20,7 +20,7 @@ client.on('ready',()=>{
                         let guildRole = guild.roles.cache.get(config.roles[role])
                         guildRole.setColor(randomColour)
                 }
-        },2000)
+        },5*1000)
 })
 
 
